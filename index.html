@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NanoChat Admin Panel</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="admin-window" class="window">
+        <header class="window-header">
+            <div class="window-controls">
+                <button id="close-btn" class="control-btn close" title="Close"></button>
+                <button id="minimize-btn" class="control-btn minimize" title="Minimize"></button>
+                <button id="open-btn" class="control-btn open" title="Expand"></button>
+            </div>
+            <div class="window-title">NanoChat Admin</div>
+        </header>
+        
+        <main class="window-content">
+            <section class="branding">
+                <h1>NanoChat <span class="badge">Admin</span></h1>
+                <p>Advanced AI Control Interface</p>
+            </section>
+
+            <section class="actions-grid">
+                <div class="card">
+                    <h3>System Configuration</h3>
+                    <button id="edit-prompt-btn" class="action-btn secondary">Edit System Prompt</button>
+                    <p class="hint">Modify the core behavior of the AI.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Direct Action</h3>
+                    <button id="brute-force-btn" class="action-btn danger">Brute Force AI</button>
+                    <p class="hint">Bypass standard safety checks (Caution).</p>
+                </div>
+            </section>
+
+            <section class="subscription-section">
+                <h3>Upgrade User Plan</h3>
+                <div class="plan-selector">
+                    <button class="plan-btn" data-plan="Go">Go</button>
+                    <button class="plan-btn" data-plan="Builder">Builder</button>
+                    <button class="plan-btn" data-plan="Pro">Pro</button>
+                    <button class="plan-btn active" data-plan="Max">Max</button>
+                </div>
+                <p id="plan-status" class="plan-status">Current Tier: <strong>Max</strong> (Free Access)</p>
+            </section>
+        </main>
+    </div>
+
+    <!-- Minimize Tab -->
+    <div id="minimize-tab" class="minimized-tab hidden">
+        <span class="tab-icon">✨</span>
+        <span class="tab-text">NanoChat Admin</span>
+    </div>
+
+    <!-- Modals -->
+    <div id="prompt-modal" class="modal-overlay hidden">
+        <div class="modal">
+            <h3>Edit System Prompt</h3>
+            <textarea id="system-prompt" placeholder="Enter new system prompt here..."></textarea>
+            <div class="modal-actions">
+                <button id="cancel-prompt" class="action-btn text">Cancel</button>
+                <button id="save-prompt" class="action-btn primary">Save Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
