@@ -1,0 +1,54 @@
+NanoChat Dev UI License (NDUL)
+Version 1.0
+
+Copyright (c) 2026 NanoChat
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated files (the "Software"), to use, study,
+modify, and redistribute the Software for development, educational,
+demonstration, and self-hosted purposes.
+
+This Software is intended as a development and administrative user interface
+("Dev UI") reference.
+
+---
+
+Restrictions:
+
+1. The Software may NOT be forged, injected, embedded, or integrated into
+   the NanoChat application or any official NanoChat service through hacking,
+   exploitation, reverse engineering, circumvention of access controls,
+   or any unauthorized means.
+
+2. The Software may NOT be represented as an official NanoChat component
+   unless explicitly authorized in writing by the copyright holder.
+
+3. The Software may NOT be used to bypass authentication, authorization,
+   rate limits, or security mechanisms of any NanoChat service.
+
+---
+
+Clarifications:
+
+- Forking, modifying, or adapting the Software for independent projects
+  is allowed.
+- Self-hosted usage is allowed.
+- Educational, research, and UI experimentation usage is allowed.
+- Viewing, copying, and learning from the code is allowed.
+
+---
+
+Disclaimer:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY.
+
+---
+
+Summary (non-binding):
+You can use it.
+You can learn from it.
+You can modify it.
+You cannot hack or forge it into the NanoChat app.
